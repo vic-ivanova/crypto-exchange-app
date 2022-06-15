@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.searchBox form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchBox form > div {
+  position: relative;
+}
+
+.searchBox form > div > svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+}
+
+.searchInput {
+  min-height: 40px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchInput > div {
+  height: 100%;
+}
+
+.searchInput input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.searchButton svg {
+  fill: var(--whitesmoke);
+}
+
+.searchButton {
+  background-color: var(--brand-purple);
+}
+
+.searchButton:hover {
+  background-color: var(--deep-purple);
+}
+
+.description p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .description p {
+    font-size: 1rem;
+  }
+}

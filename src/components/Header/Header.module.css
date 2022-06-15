@@ -1,0 +1,22 @@
+.header {
+  background-color: var(--dark-charcoal);
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.icon {
+  color: var(--brand-purple);
+}
+
+.purple {
+  color: var(--brand-purple);
+}
+
+h1 {
+  margin-left: 0;
+  line-height: 1;
+}

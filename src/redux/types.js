@@ -1,0 +1,11 @@
+// search types
+export const SEARCH_CHANGE_VALUE = 'SEARCH_CHANGE_VALUE';
+export const SEARCH_RESET_VALUE = 'SEARCH_RESET_VALUE';
+
+// exchange price types
+export const PRICE_CHANGE_VALUE = 'PRICE_CHANGE_VALUE';
+export const PRICE_RESET_VALUE = 'PRICE_RESET_VALUE';
+
+// selected exchange types
+export const SELECTED_EXCHANGE_CHANGE_VALUE = 'SELECTED_EXCHANGE_CHANGE_VALUE';
+export const SELECTED_EXCHANGE_RESET_VALUE = 'SELECTED_EXCHANGE_RESET_VALUE';

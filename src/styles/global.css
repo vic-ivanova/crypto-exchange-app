@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Flex:opsz@8..144&display=swap');
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Flex', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--charcoal);
+  color: var(--whitesmoke);
+}
+
+a {
+  color: var(--whitesmoke);
+  text-decoration: none;
+}
+
+h1 {
+  margin: 1rem;
+  font-family: 'Acme', sans-serif;
+}
+
+input::placeholder {
+  color: var(--whitesmoke);
+  opacity: 1;
+}
+
+input:focus-visible {
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(245,245,245,0.4); 
+  box-shadow: inset 0px 0px 4px 1px rgba(245,245,245,0.4);
+}

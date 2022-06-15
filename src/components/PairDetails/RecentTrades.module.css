@@ -1,0 +1,42 @@
+.tradesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.trades {
+  padding-top: 15px;
+}
+
+.singleTrade {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.singleTrade:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.singleTrade > div {
+  width: 25%;
+  padding: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.titleWrapper {
+  display: flex;
+}
+
+.titleWrapper > div {
+  width: 25%;
+  padding: 0 5px 15px 5px;
+}
+
+@media screen and (max-width: 630px) {
+  .singleTrade,
+  .titleWrapper {
+    font-size: 3vw;
+  }
+
+}
